@@ -1,6 +1,6 @@
-# Gothic: Image Classification and Transformation with CNN
+# Garbage Bag Image Classification and Transformation with CNN
 
-Gothic is a machine learning project for binary image classification, specifically designed to distinguish between images with and without garbage bags. The repository includes custom data transformations and a convolutional neural network (CNN) model implemented in TensorFlow/Keras for image augmentation and classification.
+ Machine learning project for binary image classification, specifically designed to distinguish between images with and without garbage bags. The repository includes custom data transformations and a convolutional neural network (CNN) model implemented in TensorFlow/Keras for image augmentation and classification.
 
 ## Features
 
