@@ -7,11 +7,9 @@ import os
 import random
 
 # Image directories for training and testing data
-Garbage_datadir = "/test/dataset/garbageBag"
-Garbage_datadir2 = "/test/dataset/BGarbage"
-NoGarbage_train_dir = "/GoogleImages/StreetTrain"
-Garbage_Test_dir = "/GoogleImages/YorkTrash"
-NoGarbage_Test_dir = "/GoogleImages/streeTest"
+garbage_direct = "/test/dataset/garbageBag"
+no_garbage_direct = "/test/dataset/BGarbage"
+
 
 # Dataset statistics for normalization
 mean = [0.4427, 0.4489, 0.4485]
@@ -106,8 +104,8 @@ def label(array1, label1, array2, label2):
     return np.array(train1), np.array(train2)
 
 # Define directories for training and testing images
-garbage_test_path = [Garbage_Test_dir]
-street_test_path = [NoGarbage_Test_dir]
+garbage_test_path = [garbage_direct]
+street_test_path = [no_garbage_direct]
 
 # Transformation lists for different datasets
 garbage_bag_transform = [
